@@ -13,7 +13,6 @@ from typing import List, Dict
 # 환경 변수 정의
 EACH_RANGE = CONFIG['part']
 EACH_RANGE = transfer_as_properties(EACH_RANGE)
-
 NAME_CONCATED = CONFIG['output_name']
 
 ROOT_EXCEL = CONFIG['src']
